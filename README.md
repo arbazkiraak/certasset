@@ -1,9 +1,8 @@
 # certasset
-Small Python Script which Takes ip range, Scan all open SSL Certs, Grab Cnames
+Small Python rough Script which Takes ip range => check if port 443 is open on each ip => Scan all SSL Certs => Grab Cnames Domain...
 
 default - 100 Threads 
 
-Coded Roughly ~ 
 ### Usage : 
 
 python subs_cert.py <iprange>

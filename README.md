@@ -1,6 +1,9 @@
 # certasset
-Tiny Script which Takes ip range, Scan all open SSL Certs, Grab Cnames
+Small Python Script which Takes ip range, Scan all open SSL Certs, Grab Cnames
 
+default - 100 Threads 
+
+Coded Roughly ~ 
 ### Usage : 
 
 python subs_cert.py <iprange>

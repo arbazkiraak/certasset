@@ -49,6 +49,6 @@ else:
     print('Empty ips.. Exiting..')
     sys.exit(1)
 
-for i in range(500):
+for i in range(100):
     t = threading.Thread(target=process_queue)
     t.start()

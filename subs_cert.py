@@ -2,7 +2,8 @@ import sys,time
 from socket import socket
 import ssl,masscan
 import M2Crypto
-import OpenSSL,xml,threading,queue
+import OpenSSL,xml,threading
+import Queue as queue
 
 q = queue.Queue()
 final_res = []

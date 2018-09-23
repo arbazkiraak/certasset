@@ -3,7 +3,11 @@ from socket import socket
 import ssl,masscan
 import M2Crypto
 import OpenSSL,xml,threading
-import Queue as queue
+vers = sys.version[0]
+if vers == "2":
+    import Queue as queue
+else:
+    import queue as queue
 
 q = queue.Queue()
 final_res = []
